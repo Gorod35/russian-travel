@@ -1,0 +1,35 @@
+.place__image {
+    width: 460px;
+    padding-right: 40px;
+    align-self: flex-start;
+}
+
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+
+    .place__image {
+        width: calc(440px + (((100vw - 1024px) * 20) / 256));
+        padding-right: calc(32px + (((100vw - 1024px) * 8) / 256));
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .place__image {
+        width: calc(340px + (((100vw - 768px) * 100) / 256));
+        padding-right: calc(28px + (((100vw - 768px) * 4) / 256));
+    }
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .place__image {
+        width: 100%;
+        height: calc(320px + (((100vw - 320px) * 20) / 448));;
+        padding-right: 0px;
+        object-fit: cover;
+        padding-bottom: 32px;
+    }
+    
+}

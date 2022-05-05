@@ -1,0 +1,16 @@
+.footer__item {
+    display: inline;
+}
+
+.footer__item:not(:last-child) {
+    padding-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer__item:not(:last-child) {
+        padding-right: 0px;
+        padding-bottom: 32px;
+    }
+    
+}

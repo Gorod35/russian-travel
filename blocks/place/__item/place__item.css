@@ -1,0 +1,27 @@
+.place__item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    list-style: none;
+}
+
+.place__item:last-child {
+    padding-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .place__item {
+        padding-bottom: calc(73px + (((100vw - 768px) * 7) / 256));
+    }
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .place__item {
+        display: block;
+        padding-bottom: calc(50px + (((100vw - 320px) * 23) / 448));
+    }
+    
+}

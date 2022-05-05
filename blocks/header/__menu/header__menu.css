@@ -1,0 +1,14 @@
+.header__menu {
+    max-width: 1184px;
+    padding-top: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        padding-top: calc(16px + (((100vw - 320px) * 12) / 448));
+    }
+}
