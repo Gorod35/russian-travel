@@ -7,11 +7,29 @@
     padding-bottom: 24px;
 }
 
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+
+    .footer {
+        width: calc(100vw - 96px);
+        max-width: 1184px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .footer {
+        width: calc(720px + (((100vw - 768px) * 208) / 256));
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     .footer {
         flex-direction: column;
         align-items: flex-start;
+        width: calc(288px + (((100vw - 320px) * 432) / 448));
     }
     
 }

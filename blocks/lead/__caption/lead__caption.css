@@ -5,3 +5,19 @@
     text-transform: uppercase;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .lead__caption {
+        width: calc(720px + (((100vw - 768px) * 208) / 256));
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .lead__caption {
+        width: calc(288px + (((100vw - 320px) * 432) / 448));
+    }
+
+}

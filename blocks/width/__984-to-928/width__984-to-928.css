@@ -1,8 +1,0 @@
-@media screen and (min-width:1024px) and (max-width: 1280px) {
-    
-    .width__984-to-928 {
-        width: calc(928px + (((100vw - 1024px) * 56) / 256));
-        max-width: 984px;
-    }
-    
-}

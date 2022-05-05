@@ -7,8 +7,26 @@
     align-items: flex-end;
 }
 
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+
+    .header__menu {
+        width: calc(100vw - 96px);
+        max-width: 1184px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header__menu {
+        width: calc(720px + (((100vw - 768px) * 208) / 256));
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .header__menu {
         padding-top: calc(16px + (((100vw - 320px) * 12) / 448));
+        width: calc(288px + (((100vw - 320px) * 432) / 448));
     }
 }

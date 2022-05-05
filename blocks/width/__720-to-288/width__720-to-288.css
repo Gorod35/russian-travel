@@ -1,7 +1,0 @@
-@media screen and (max-width: 768px) {
-
-    .width__720-to-288 {
-        width: calc(288px + (((100vw - 320px) * 432) / 448));
-    }
-
-}

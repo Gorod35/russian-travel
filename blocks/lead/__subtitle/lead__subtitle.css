@@ -11,6 +11,7 @@
 
     .lead__subtitle {
         padding-bottom: calc(40px + ((100% - 320px) / 28));
+        width: calc(288px + (((100vw - 320px) * 432) / 448));
     }
     
 }

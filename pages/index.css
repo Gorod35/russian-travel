@@ -7,10 +7,6 @@
 @import url(../blocks/header/__lang/_ru/header__lang_ru.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/width/__1184-to-928/width__1184-to-928.css);
-@import url(../blocks/width/__984-to-928/width__984-to-928.css);
-@import url(../blocks/width/__928-to-720/width__928-to-720.css);
-@import url(../blocks/width/__720-to-288/width__720-to-288.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);

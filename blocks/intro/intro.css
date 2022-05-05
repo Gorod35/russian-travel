@@ -5,10 +5,20 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+    
+    .intro {
+        width: calc(928px + (((100vw - 1024px) * 56) / 256));
+        max-width: 984px;
+    }
+    
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
         padding-top: calc(88px + (((100% - 768px) * 4) / 256));
         padding-bottom: calc(88px + (((100% - 768px) * 4) / 256));
+        width: calc(720px + (((100vw - 768px) * 208) / 256));
     }
 }
 
@@ -16,5 +26,6 @@
     .intro {
         padding-top: calc(64px + (((100% - 320px) * 24) / 448));
         padding-bottom: calc(64px + (((100% - 320px) * 24) / 448));
+        width: calc(288px + (((100vw - 320px) * 432) / 448));
     }
 }
