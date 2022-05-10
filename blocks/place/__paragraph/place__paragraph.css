@@ -5,7 +5,7 @@
     max-width: 484px;
 }
 
-.place__paragraph:first-child {
+.place__paragraph:not(:last-child) {
     padding-bottom: 26px;
 }
 
@@ -35,7 +35,7 @@
         max-width: 720px;
     }
 
-    .place__paragraph:first-child {
+    .place__paragraph:not(:last-child) {
         padding-bottom: 25px;
     }
 

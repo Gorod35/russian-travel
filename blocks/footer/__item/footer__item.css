@@ -6,7 +6,7 @@
     padding-right: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
 
     .footer__item:not(:last-child) {
         padding-right: 0px;

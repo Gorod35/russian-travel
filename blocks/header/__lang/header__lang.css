@@ -7,6 +7,10 @@
     transition: opacity .5s ease;
 }
 
+.header__lang:not(:last-child) {
+    margin-right: 18px;
+}
+
 .header__lang:hover {
     opacity: .8;
 }
